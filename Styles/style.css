@@ -93,6 +93,10 @@ nav li a {
 
 .banner {
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
    margin: 0;
    padding: 0;
    
@@ -106,10 +110,22 @@ nav li a {
     background-image: url(../images/bannar-background.png);
     /* background-position: left; */
     background-repeat: no-repeat;
-    background-size:contain;
+    /* background-size:contain; */
+    object-fit: fill;
     height: 100%;
-    width: 40%;
-    padding:15rem;
+    width: 50%;
+    padding:10ren 15rem 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.banner-text{
+
+
 }
 
 
@@ -142,6 +158,7 @@ nav li a {
 
         list-style-type: none;
         padding-inline-start: 0;
+        margin-bottom: 40px;
 
     }
 
@@ -163,4 +180,15 @@ nav li a {
         border: none;
         border-radius: 48px;
         background: #4EC5F7;
+    }
+
+    .banner-img-container{
+
+        padding-right: 15rem;
+        height: 100%;
+    }
+
+    .banner-img{
+
+        height: 100%;
     }
