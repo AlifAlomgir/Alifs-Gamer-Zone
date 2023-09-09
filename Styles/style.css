@@ -97,9 +97,9 @@ nav li a {
     align-items: center;
     justify-content: space-between;
     height: 700px;
-   margin: 0;
-   padding: 0;
-   
+    margin: 0;
+    padding: 0;
+
 
 
 }
@@ -114,81 +114,141 @@ nav li a {
     object-fit: fill;
     height: 100%;
     width: 50%;
-    padding:10ren 15rem 10rem;
+    padding: 10ren 15rem 10rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-}
-
-.banner-text{
 
 
 }
+
+.banner-text {}
 
 
 
 .banner-title1 {
 
-        color: #0B0223;
-        font-size: 3rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin: 0;
-    }
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
 
 .banner-title2 {
 
-        font-size: 95px;
-        font-weight: 800;
-        text-transform: uppercase;
-        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin: 0;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
 
 
 
-    }
+}
 
-    .banner-list {
+.banner-list {
 
-        list-style-type: none;
-        padding-inline-start: 0;
-        margin-bottom: 40px;
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-bottom: 40px;
 
-    }
+}
 
-    .banner-text-container>ul li {
+.banner-text-container>ul li {
 
-        color: #534C64;
-        font-size: 20px;
-        font-weight: 500;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
 
-    }
+}
 
-    .banner-btn {
+.banner-btn {
 
-        color: #FFF;
-        font-size: 20px;
-        font-weight: 600;
-        text-transform: uppercase;
-        padding: 21px 40px;
-        border: none;
-        border-radius: 48px;
-        background: #4EC5F7;
-    }
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
 
-    .banner-img-container{
+.banner-img-container {
 
-        padding-right: 15rem;
-        height: 100%;
-    }
+    padding-right: 15rem;
+    height: 100%;
+}
 
-    .banner-img{
+.banner-img {
 
-        height: 100%;
-    }
+    height: 100%;
+}
+
+
+
+/* *********************************************************************
+    *********************gamer section styles******************************* */
+
+.gamer {
+
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 0 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+.gamer-text-container {
+
+
+    text-align: right;
+}
+
+.gamer-title {
+
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+
+}
+
+.gamer-details {
+
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.purpose-text {
+
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.quotation {
+
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
