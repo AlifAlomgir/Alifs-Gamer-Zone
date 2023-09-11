@@ -252,3 +252,70 @@ nav li a {
     margin-top: 5px;
 
 }
+
+
+
+/* ****************************Onlines games funny videos*************************** */
+
+.online-games-funny-videos {
+
+    
+    margin: 11rem 15rem
+}
+
+.funny-videos-item-container{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.funny-videos-title {
+
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.funny-videos-gradient-text {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-videos-text {
+
+    color: #534C64;
+    text-align: center;
+    font-weight: 400;
+}
+
+.funny-videos-item{
+
+    width: 21rem;
+
+}
+
+.funny-videos-img-item {
+
+   
+    height: 25rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.funny {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.funny-videos-text-item {
+
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
