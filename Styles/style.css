@@ -275,6 +275,7 @@ nav li a {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .funny-videos-gradient-text {
@@ -290,6 +291,7 @@ nav li a {
     color: #534C64;
     text-align: center;
     font-weight: 400;
+    margin-bottom: 3rem;
 }
 
 .funny-videos-item{
