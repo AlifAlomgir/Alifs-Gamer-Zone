@@ -259,11 +259,11 @@ nav li a {
 
 .online-games-funny-videos {
 
-    
+
     margin: 11rem 15rem
 }
 
-.funny-videos-item-container{
+.funny-videos-item-container {
 
     display: flex;
     justify-content: space-between;
@@ -294,7 +294,7 @@ nav li a {
     margin-bottom: 3rem;
 }
 
-.funny-videos-item{
+.funny-videos-item {
 
     width: 21rem;
 
@@ -302,7 +302,7 @@ nav li a {
 
 .funny-videos-img-item {
 
-   
+
     height: 25rem;
     border-radius: 1rem;
     width: 100%;
@@ -320,4 +320,65 @@ nav li a {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+}
+
+
+/* ******************************Instruction section******************************** */
+
+.instruction{
+
+    margin: 10rem 15rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.instruction-text-container{
+
+    text-align: right;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-instruction {
+
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    
+}
+
+.instruction-color-text {
+
+    color: #F948B2
+}
+
+.sub-instruction {
+
+    color: #534C64;
+    font-size: 18px;
+}
+
+.instruction-img-container{
+
+    width: 40%;
+    position: relative;
+}
+
+.instruction-first-img{
+
+    width: 100%;
+    
+}
+
+.instruction-second-img{
+
+   position: absolute;
+   left:-10rem ;
+   bottom: -5rem;
+  
 }
