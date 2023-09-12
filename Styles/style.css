@@ -412,3 +412,94 @@ nav li a {
     font-weight: 600;
     gap: 1rem;
 }
+
+
+/* ************************************ footer styles*************************** */
+
+footer {
+
+    /* height: 40rem; */
+    background: #0B0223;
+    padding: 5rem 15rem;
+}
+
+.footer-item-1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-logo-text {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-logo-text span {
+
+    color: #FF42A5;
+}
+
+.footer-item-2 ol {
+
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.footer-item-2 a {
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.footer-item-3 ol {
+
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 40px;
+}
+
+.footer-item-3 ol li a {
+    color: white
+}
+
+.footer-item-4 ol {
+
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.footer-item-4 ol a {
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.footer-item-5 {
+
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+   
+
+.footer-item-5 p{
+
+    display: inline-block;
+}
