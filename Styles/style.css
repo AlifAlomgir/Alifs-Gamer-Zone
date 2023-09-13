@@ -497,9 +497,116 @@ footer {
     font-weight: 500;
     display: flex;
     justify-content: center;
-   
-
-.footer-item-5 p{
-
-    display: inline-block;
 }
+
+
+/* ***************************responsive style for mobile****************************** */
+
+@media screen and (max-width: 576px) {
+
+    /* *********************nav styles***************************** */
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        height: auto;
+        padding: 5rem;
+    }
+
+    nav ul{
+
+        flex-direction: column;
+        row-gap: 50px;
+       
+    }
+
+    /* ******************************Banner styles******************************* */
+
+
+    .banner{
+
+        flex-direction: column-reverse;
+        height: auto;
+
+    }
+
+    .banner-text-container{
+
+        width: 100%;
+        background-size: contain ;
+        
+    }
+
+
+    /* *******************gamer styles****************************** */
+
+    .gamer{
+
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .gamer-img-container{
+
+        width: 425px;
+        object-fit: contain;
+    }
+
+    .gamer-text-container{
+
+        text-align: center;
+    }
+
+    .gamer-img-container>img{
+
+        width: 100%;
+    }
+
+    /* ****************************online games ***************** */
+    
+    .online-games-funny-videos{
+
+        margin: 0;
+        text-align: center;
+    }
+
+    .funny-videos-item-container{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* ******************************section instruction******************** */
+
+    .instruction{
+
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+    }
+    .instruction-text-container{
+
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .instruction-img-container{
+
+        
+
+        width: 100%;
+    }
+
+    /* *********************section grid***************************** */
+
+    .grid{
+
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 0;
+    }
+}
+    
